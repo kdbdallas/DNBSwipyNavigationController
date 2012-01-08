@@ -4,6 +4,8 @@
 
 This is very early and not ready for prime time. Bounce logic sucks and pushing side controllers has not been tested.
 
+Only tested on iPhone with controllers narrower than the screen.
+
 ## Documentation
 
-None.
+None, it's not done yet.
