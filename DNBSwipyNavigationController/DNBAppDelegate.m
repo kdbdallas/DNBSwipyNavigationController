@@ -27,6 +27,7 @@
     rootController.view.backgroundColor = [UIColor redColor];
     DNBSwipyNavigationController *n = [[DNBSwipyNavigationController alloc] initWithRootViewController:rootController];
     self.window.rootViewController = n;
+    n.bounceEnabled = YES;
     
     LeftViewController *l = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
     n.leftController = l;
