@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+*.idea
+*.DS_Store
+DNBSwipyNavigationController.xcodeproj/project.xcworkspace
+DNBSwipyNavigationController.xcodeproj/xcuserdata
