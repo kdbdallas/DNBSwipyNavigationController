@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3FA3F914B7D21C000C37D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3FA3F814B7D21C000C37D8 /* UIKit.framework */; };
+		5D3FA3FB14B7D21C000C37D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3FA3FA14B7D21C000C37D8 /* Foundation.framework */; };
+		5D3FA3FD14B7D21C000C37D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3FA3FC14B7D21C000C37D8 /* CoreGraphics.framework */; };
+		5D3FA40314B7D21C000C37D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3FA40114B7D21C000C37D8 /* InfoPlist.strings */; };
+		5D3FA40514B7D21C000C37D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA40414B7D21C000C37D8 /* main.m */; };
+		5D3FA40914B7D21C000C37D8 /* DNBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA40814B7D21C000C37D8 /* DNBAppDelegate.m */; };
+		5D3FA41114B7D263000C37D8 /* DNBSwipyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA41014B7D263000C37D8 /* DNBSwipyNavigationController.m */; };
+		5D3FA42314B7DB32000C37D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3FA42214B7DB32000C37D8 /* QuartzCore.framework */; };
+		5D3FA42614B7EBC0000C37D8 /* UIViewController+SwipyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA42514B7EBC0000C37D8 /* UIViewController+SwipyAdditions.m */; };
+		5D3FA42A14B7EDCD000C37D8 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA42814B7EDCD000C37D8 /* LeftViewController.m */; };
+		5D3FA42F14B7EDE2000C37D8 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA42D14B7EDE2000C37D8 /* RightViewController.m */; };
+		5D3FA43214B7EE19000C37D8 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3FA43114B7EE19000C37D8 /* LeftViewController.xib */; };
+		5D3FA43414B7EE29000C37D8 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3FA43314B7EE29000C37D8 /* RightViewController.xib */; };
+		5D3FA43C14B8162E000C37D8 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3FA43A14B8162D000C37D8 /* SampleViewController.m */; };
+		5D3FA43F14B8168A000C37D8 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3FA43E14B8168A000C37D8 /* SampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3FA3F414B7D21C000C37D8 /* DNBSwipyNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNBSwipyNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3FA3F814B7D21C000C37D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D3FA3FA14B7D21C000C37D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D3FA3FC14B7D21C000C37D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D3FA40014B7D21C000C37D8 /* DNBSwipyNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNBSwipyNavigationController-Info.plist"; sourceTree = "<group>"; };
+		5D3FA40214B7D21C000C37D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D3FA40414B7D21C000C37D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D3FA40614B7D21C000C37D8 /* DNBSwipyNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNBSwipyNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		5D3FA40714B7D21C000C37D8 /* DNBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNBAppDelegate.h; sourceTree = "<group>"; };
+		5D3FA40814B7D21C000C37D8 /* DNBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBAppDelegate.m; sourceTree = "<group>"; };
+		5D3FA40F14B7D263000C37D8 /* DNBSwipyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNBSwipyNavigationController.h; sourceTree = "<group>"; };
+		5D3FA41014B7D263000C37D8 /* DNBSwipyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNBSwipyNavigationController.m; sourceTree = "<group>"; };
+		5D3FA42214B7DB32000C37D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D3FA42414B7EBC0000C37D8 /* UIViewController+SwipyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SwipyAdditions.h"; path = "../../../Documents/Apperian/ApperianFramework/DeckControllerSample/DeckControllerSample/UIViewController+SwipyAdditions.h"; sourceTree = "<group>"; };
+		5D3FA42514B7EBC0000C37D8 /* UIViewController+SwipyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SwipyAdditions.m"; path = "../../../Documents/Apperian/ApperianFramework/DeckControllerSample/DeckControllerSample/UIViewController+SwipyAdditions.m"; sourceTree = "<group>"; };
+		5D3FA42714B7EDCD000C37D8 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		5D3FA42814B7EDCD000C37D8 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		5D3FA42C14B7EDE2000C37D8 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		5D3FA42D14B7EDE2000C37D8 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		5D3FA43114B7EE19000C37D8 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		5D3FA43314B7EE29000C37D8 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		5D3FA43914B8162D000C37D8 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		5D3FA43A14B8162D000C37D8 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		5D3FA43E14B8168A000C37D8 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3FA3F114B7D21C000C37D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3FA42314B7DB32000C37D8 /* QuartzCore.framework in Frameworks */,
+				5D3FA3F914B7D21C000C37D8 /* UIKit.framework in Frameworks */,
+				5D3FA3FB14B7D21C000C37D8 /* Foundation.framework in Frameworks */,
+				5D3FA3FD14B7D21C000C37D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3FA3E914B7D21C000C37D8 = {
+			isa = PBXGroup;
+			children = (
+				5D3FA42214B7DB32000C37D8 /* QuartzCore.framework */,
+				5D3FA3FE14B7D21C000C37D8 /* DNBSwipyNavigationController */,
+				5D3FA3F714B7D21C000C37D8 /* Frameworks */,
+				5D3FA3F514B7D21C000C37D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3FA3F514B7D21C000C37D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FA3F414B7D21C000C37D8 /* DNBSwipyNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3FA3F714B7D21C000C37D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FA3F814B7D21C000C37D8 /* UIKit.framework */,
+				5D3FA3FA14B7D21C000C37D8 /* Foundation.framework */,
+				5D3FA3FC14B7D21C000C37D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3FA3FE14B7D21C000C37D8 /* DNBSwipyNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FA40714B7D21C000C37D8 /* DNBAppDelegate.h */,
+				5D3FA40814B7D21C000C37D8 /* DNBAppDelegate.m */,
+				5D3FA42714B7EDCD000C37D8 /* LeftViewController.h */,
+				5D3FA42814B7EDCD000C37D8 /* LeftViewController.m */,
+				5D3FA43114B7EE19000C37D8 /* LeftViewController.xib */,
+				5D3FA42C14B7EDE2000C37D8 /* RightViewController.h */,
+				5D3FA42D14B7EDE2000C37D8 /* RightViewController.m */,
+				5D3FA43314B7EE29000C37D8 /* RightViewController.xib */,
+				5D3FA43914B8162D000C37D8 /* SampleViewController.h */,
+				5D3FA43A14B8162D000C37D8 /* SampleViewController.m */,
+				5D3FA43E14B8168A000C37D8 /* SampleViewController.xib */,
+				5D3FA40F14B7D263000C37D8 /* DNBSwipyNavigationController.h */,
+				5D3FA41014B7D263000C37D8 /* DNBSwipyNavigationController.m */,
+				5D3FA42414B7EBC0000C37D8 /* UIViewController+SwipyAdditions.h */,
+				5D3FA42514B7EBC0000C37D8 /* UIViewController+SwipyAdditions.m */,
+				5D3FA3FF14B7D21C000C37D8 /* Supporting Files */,
+			);
+			path = DNBSwipyNavigationController;
+			sourceTree = "<group>";
+		};
+		5D3FA3FF14B7D21C000C37D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3FA40014B7D21C000C37D8 /* DNBSwipyNavigationController-Info.plist */,
+				5D3FA40114B7D21C000C37D8 /* InfoPlist.strings */,
+				5D3FA40414B7D21C000C37D8 /* main.m */,
+				5D3FA40614B7D21C000C37D8 /* DNBSwipyNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3FA3F314B7D21C000C37D8 /* DNBSwipyNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3FA40C14B7D21C000C37D8 /* Build configuration list for PBXNativeTarget "DNBSwipyNavigationController" */;
+			buildPhases = (
+				5D3FA3F014B7D21C000C37D8 /* Sources */,
+				5D3FA3F114B7D21C000C37D8 /* Frameworks */,
+				5D3FA3F214B7D21C000C37D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNBSwipyNavigationController;
+			productName = DNBSwipyNavigationController;
+			productReference = 5D3FA3F414B7D21C000C37D8 /* DNBSwipyNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3FA3EB14B7D21C000C37D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5D3FA3EE14B7D21C000C37D8 /* Build configuration list for PBXProject "DNBSwipyNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D3FA3E914B7D21C000C37D8;
+			productRefGroup = 5D3FA3F514B7D21C000C37D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3FA3F314B7D21C000C37D8 /* DNBSwipyNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3FA3F214B7D21C000C37D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3FA40314B7D21C000C37D8 /* InfoPlist.strings in Resources */,
+				5D3FA43214B7EE19000C37D8 /* LeftViewController.xib in Resources */,
+				5D3FA43414B7EE29000C37D8 /* RightViewController.xib in Resources */,
+				5D3FA43F14B8168A000C37D8 /* SampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3FA3F014B7D21C000C37D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3FA40514B7D21C000C37D8 /* main.m in Sources */,
+				5D3FA40914B7D21C000C37D8 /* DNBAppDelegate.m in Sources */,
+				5D3FA41114B7D263000C37D8 /* DNBSwipyNavigationController.m in Sources */,
+				5D3FA42614B7EBC0000C37D8 /* UIViewController+SwipyAdditions.m in Sources */,
+				5D3FA42A14B7EDCD000C37D8 /* LeftViewController.m in Sources */,
+				5D3FA42F14B7EDE2000C37D8 /* RightViewController.m in Sources */,
+				5D3FA43C14B8162E000C37D8 /* SampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3FA40114B7D21C000C37D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3FA40214B7D21C000C37D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3FA40A14B7D21C000C37D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D3FA40B14B7D21C000C37D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3FA40D14B7D21C000C37D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNBSwipyNavigationController/DNBSwipyNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "DNBSwipyNavigationController/DNBSwipyNavigationController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D3FA40E14B7D21C000C37D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNBSwipyNavigationController/DNBSwipyNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "DNBSwipyNavigationController/DNBSwipyNavigationController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3FA3EE14B7D21C000C37D8 /* Build configuration list for PBXProject "DNBSwipyNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3FA40A14B7D21C000C37D8 /* Debug */,
+				5D3FA40B14B7D21C000C37D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3FA40C14B7D21C000C37D8 /* Build configuration list for PBXNativeTarget "DNBSwipyNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3FA40D14B7D21C000C37D8 /* Debug */,
+				5D3FA40E14B7D21C000C37D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3FA3EB14B7D21C000C37D8 /* Project object */;
+}
