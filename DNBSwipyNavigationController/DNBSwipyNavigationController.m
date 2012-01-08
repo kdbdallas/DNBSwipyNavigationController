@@ -352,7 +352,7 @@ static float const kPAN_MAX_VELOCITY_THRESHOLD = 3000;
         r.origin.x = self.view.frame.size.width-r.size.width;
         r.size.height = self.transitionView.frame.size.height;
         v.frame = r;
-        v.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleHeight;
+        v.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleHeight;
         [self.view insertSubview:v atIndex:0];
         
     }
