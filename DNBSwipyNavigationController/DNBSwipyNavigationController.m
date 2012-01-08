@@ -313,7 +313,7 @@ static float const kPAN_MAX_VELOCITY_THRESHOLD = 3000;
                                         }   break;
                                     }
                                     
-                                    [UIView animateWithDuration:(1*duration)+(distance/10000) delay:0.0 
+                                    [UIView animateWithDuration:(.75*duration)+(distance/10000) delay:0.0 
                                                         options:UIViewAnimationOptionCurveEaseIn|UIViewAnimationOptionBeginFromCurrentState animations:snap completion:^(BOOL finished) {
                                                         }];
                                     
